@@ -59,7 +59,18 @@ html {
     background: none;
     font-size: 6.2rem;
   }
-
+  
+  .holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+  }
+  
+  .holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+  }
+  
+  .holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+  }
 
 .mt-16 {
     margin-top: 16rem;
@@ -318,3 +329,72 @@ header h1 {
 .smile-content {
     font-size: 1.4rem;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #071629;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .footer--image {
+    width: 16rem;
+    align-self: center;
+    margin-top: 3rem;
+  }
+  
+  .footer--social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer--social .block--image {
+    color: white;
+    font-size: 3rem;
+    margin: 2rem 1rem;
+  }
+  
+  .footer--copyright {
+    font-size: 1.2rem;
+    color: gray;
+    margin-bottom: 5rem;
+  }
+  
+  @media screen and (min-width:486px) {
+    .footer {
+      background-color: black;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 10rem auto;
+    }
+  
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .footer--image {
+      margin-left: 3rem;
+    }
+  
+
+  
+    .footer--copyright {
+      width: 100%;
+      margin-top: 8rem;
+    }
+  
+  }
+
+  .footer-icon1 {
+      width: 3.7rem;
+      height: 3rem;
+  }
+
+  .footer-icon-2 {
+      width: 11.4rem;
+      height: 3.5rem;
+  }
