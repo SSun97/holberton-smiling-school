@@ -36,10 +36,30 @@ html {
 
   .holberton_school-icon-arrow_3:before {
     content: "\e902";
+    font-weight: 500;
+    background: transparent;
   }
   .holberton_school-icon-arrow_4:before {
     content: "\e903";
+    font-weight: 500;
   }
+
+  .holberton_school-icon-arrow_4 {
+    color: black;
+    background: none;
+    font-size: 6.2rem;
+  }
+
+  .holberton_school-icon-arrow_white {
+      color: white !important;
+  }
+
+  .holberton_school-icon-arrow_3 {
+    color: black;
+    background: none;
+    font-size: 6.2rem;
+  }
+
 
 .mt-16 {
     margin-top: 16rem;
@@ -49,6 +69,10 @@ html {
     margin-top: 8rem;
 }
 
+.my-9 {
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+}
 .pb-10 {
     padding-bottom: 10rem;
 }
@@ -200,6 +224,11 @@ header h1 {
 .carousel-control-next {
     bottom: 16rem;
 }
+
+.heading-in-carousel {
+    font-size: 3.2rem;
+    font-weight: 300;
+}
 @media screen and (min-width: 768px) {
     .carousel-flex {
         flex-direction: row;
@@ -229,4 +258,46 @@ header h1 {
         margin-left: 0;
         margin-right: 0;
     }
+}
+
+/* Cards */
+
+.popular-card {
+    width: 25.5rem;
+}
+
+.popular-card-img {
+    width: 25.5rem;
+
+}
+.popular-card-play {
+    width: 6.4rem;
+    height: auto;
+    position: absolute;
+    left: 95px;
+    top: 45px;
+    z-index: 1;
+}
+
+.popular-card-title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.popular-card-title + p {
+    color: gray;
+}
+.profile-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.star-size {
+    width: 1.5rem;
+}
+
+.profile-small + h5 {
+    font-size: 1.4rem;
+    color: #C271ff;
 }
