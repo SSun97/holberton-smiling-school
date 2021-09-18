@@ -77,7 +77,9 @@ html {
     color: yellowgreen;
     font-size: 2.8rem;
   }
-
+.bg-dark1 {
+    background-color: #071629;
+}
 .mt-16 {
     margin-top: 16rem;
 }
@@ -409,7 +411,7 @@ header h1 {
 
   .bg-pricing-header {
     background: url(./images/pic_2.jpg) no-repeat;
-    background-position-x: center;
+    background-position: center;
     background-size: cover;
   }
 
