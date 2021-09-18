@@ -177,7 +177,10 @@ header h1 {
     color: #C271ff;
     font-weight: bold;
 }
-
+.purple {
+    color: #C271ff;
+    font-family: Coiny;
+}
 .profile-info {
     font-size: 1.6rem;
 }
@@ -411,6 +414,8 @@ header h1 {
 
   .bg-pricing-header {
     background: url(./images/pic_2.jpg) no-repeat;
+
+
     background-position: center;
     background-size: cover;
   }
@@ -487,4 +492,12 @@ header h1 {
 
 .faq-question .p2 {
     font-size: 1.4rem;
+}
+
+/* Courses */
+
+.course-header-heading {
+    font-family: Coiny, Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
 }
