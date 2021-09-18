@@ -1,0 +1,23 @@
+{
+  "name": "holberton-smiling-school",
+  "version": "1.0.0",
+  "description": "In this project, we will implement 3 web pages with Bootstrap. We will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that we learned previously.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSun97/holberton-smiling-school.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SSun97/holberton-smiling-school/issues"
+  },
+  "homepage": "https://github.com/SSun97/holberton-smiling-school#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
