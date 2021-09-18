@@ -575,3 +575,9 @@ header h1 {
         padding-right: 0;
     }
 }
+
+
+.course-heading5 {
+    font-size: 1.6rem;
+    opacity: 0.3;
+}
