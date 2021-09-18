@@ -464,3 +464,27 @@ header h1 {
       width: 8.8rem;
       height: 3.5rem;
   }
+
+  /* FAQ */
+
+  .faq h1 {
+      font-size: 6rem;
+      font-weight: 300;
+      padding-top: 7.4rem;
+  }
+
+@media screen and (min-width: 976px) {
+    
+    .move-margin {
+        margin-top: -3rem;
+    }
+}
+
+.faq-question .p1{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.faq-question .p2 {
+    font-size: 1.4rem;
+}
