@@ -77,6 +77,13 @@ html {
     color: yellowgreen;
     font-size: 2.8rem;
   }
+
+  .holberton_school-icon-search_2:before {
+    content: "\e913";
+    font-size: 3rem;
+    color: white;
+  }
+
 .bg-dark1 {
     background-color: #071629;
 }
@@ -500,4 +507,71 @@ header h1 {
     font-family: Coiny, Arial, Helvetica, sans-serif;
     font-size: 3.2rem;
     text-align: center;
+}
+
+.bg-forms {
+    background-color: #C271ff;
+}
+
+.dropdown-menu {
+    width: 100% !important;
+}
+
+.dropdown-div {
+    margin-right: none;
+    padding-left: 0.75rem;
+    background-color: #d195ff;
+    border: none;
+}
+.dropdown-div:hover,
+.dropdown-div:hover::after,
+.dropdown-div:visited,
+.dropdown-div:active,
+.dropdown-div:focus{
+    margin-right: none;
+    background-color: #d195ff;
+    border: none;
+}
+
+.dropdown-div span {
+    font-size: 2.3rem;
+    padding-right: 0.75rem;
+}
+
+.form-group input {
+    font-size: 2.3rem;
+    color: white;
+}
+
+.drop-whole {
+    padding-left: 0.75rem;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.pl-search {
+    padding-left: 0;
+    padding-right: 0.75rem;
+}
+
+.form-group label {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.drop-left {
+    padding-left: 0px;
+}
+.search-icon {
+    background-color: #d195ff;
+}
+@media screen and (min-width: 576px) {
+    .pl-search {
+        padding-right: 0.75rem;
+    }
+    .drop-left{
+        padding-right: 0;
+    }
 }
